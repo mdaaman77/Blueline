@@ -9,7 +9,7 @@ import { WhatsAppButton } from '@/components/whatsapp-button'
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'Blueline HealthCare | Trusted Supplier of Surgical & Medical Equipment',
+  title: 'Blueline HealthCare System | Trusted Supplier of Surgical & Medical Equipment',
   description: 'Blueline Health is a trusted supplier of quality surgical instruments, hospital equipment, disposable medical supplies, and diagnostic equipment for hospitals, clinics, and healthcare professionals.',
   keywords: ['medical supplies', 'surgical instruments', 'hospital equipment', 'healthcare', 'medical equipment supplier'],
   icons: {
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
         url: '/icon.svg',
-        type: 'image/svg+xml',
+        type: 'image/png',
       },
     ],
     apple: '/apple-icon.png',

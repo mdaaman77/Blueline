@@ -16,7 +16,7 @@ import {
 import { products } from "@/lib/products";
 import { VideoSlider } from "@/components/video-slider";
 
-const featuredProducts = products.slice(40, 46);
+const featuredProducts = products.slice(88, 94);
 
 const highlights = [
   {
@@ -183,7 +183,7 @@ text-primary-foreground/80
             <h3 className="mb-6 text-center text-xl font-semibold text-foreground">
               Featured Products
             </h3>
-            <div className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+            <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-6">
               {featuredProducts.map((product) => (
                 <Card
                   key={product.id}
@@ -207,7 +207,7 @@ text-primary-foreground/80
             </div>
           </div>
 
-          <div className="mt-10 text-center scale-125">
+          <div className="mt-10 text-center">
             <Button asChild>
               <Link href="/products">View All Products</Link>
             </Button>

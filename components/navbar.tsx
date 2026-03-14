@@ -21,9 +21,10 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
 
-          <div className="h-12 w-12 rounded-lg overflow-hidden bg-slate-900">
+          <div className="h-12 w-12 rounded-lg overflow-hidden ">
             <img
-              src="/images/logo/company-latest-logo.png"
+            /*company-latest-logo*/ 
+              src="/images/logo/company-logo-blue.png"
               alt="Company Logo"
               className="w-full h-full object-contain "
             />
