@@ -65,6 +65,9 @@ export function Footer() {
                <Link href="/products?category=ot-light" className="text-sm text-background/70 transition-colors hover:text-background">
                 O.T Light
               </Link>
+              <Link href="/products?category=trolley" className="text-sm text-background/70 transition-colors hover:text-background">
+                Trolley
+              </Link>
                <Link href="/products?category=surgical" className="text-sm text-background/70 transition-colors hover:text-background">
                 Surgical Instruments
               </Link>
