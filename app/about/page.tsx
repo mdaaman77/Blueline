@@ -93,7 +93,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-primary to-accent py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl font-bold text-primary-foreground md:text-4xl lg:text-5xl">
-            About Blueline Health
+            About Blueline HealthCare System Pvt. ltd.
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-primary-foreground/90">
           One stop solution to all your hospital related needs

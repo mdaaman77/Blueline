@@ -12,7 +12,7 @@ export function Footer() {
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                   <div className="h-10 w-10 overflow-hidden bg-foreground">
             <img
-              src="/images/logo/company-latest-logo.png"
+               src="/images/logo/company-logo-blue.png"
               alt="Company Logo"
               className="w-full h-full object-contain  "
             />
@@ -86,8 +86,13 @@ export function Footer() {
             <div className="flex flex-col gap-3">
               <a href="tel:+916201410466" className="flex items-center gap-2 text-sm text-background/70 transition-colors hover:text-background">
                 <Phone className="h-4 w-4" />
-                +91 6201410466
+                +91 6201410466 
               </a>
+              <a href="tel:+919153542010" className="flex items-center gap-2 text-sm text-background/70 transition-colors hover:text-background">
+                <Phone className="h-4 w-4" />
+                +91 9153542010
+              </a>
+              
               <a href="mailto:Bluelinehealthcs@gmail.com" className="flex items-center gap-2 text-sm text-background/70 transition-colors hover:text-background">
                 <Mail className="h-4 w-4" />
                 Bluelinehealthcs@gmail.com

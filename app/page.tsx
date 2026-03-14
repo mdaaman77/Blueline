@@ -71,7 +71,7 @@ export default function HomePage() {
             Blueline
           </h1>
           <h1 className="text-balance text-[0.85rem] tracking-tight text-primary-foreground md:text-xl lg:text-2xl sm:text-[0.85rem] ">
-            HealthCare System
+            HealthCare System Pvt. ltd.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg text-primary-foreground/90 md:text-xl">
             One stop solution to all your hospital related needs
