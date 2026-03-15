@@ -8,9 +8,9 @@ import { Label } from "@/components/ui/label"
 import { Loader2, Send, CheckCircle2 } from "lucide-react"
 
 // EmailJS Configuration - Replace with your actual EmailJS credentials
-const EMAILJS_SERVICE_ID = "service_xlvtp1r"
-const EMAILJS_TEMPLATE_ID = "template_6amktbe"
-const EMAILJS_PUBLIC_KEY = "pyjWa3rM26tSyQO7h"
+const EMAILJS_SERVICE_ID = "service_1a0lgjj"
+const EMAILJS_TEMPLATE_ID = "template_9up17nl"
+const EMAILJS_PUBLIC_KEY = "TMVUzV0s04Pd_FLWb"
 
 interface FormData {
   name: string

@@ -215,6 +215,87 @@ text-primary-foreground/80
         </div>
       </section>
 
+      {/* modular ot section*/}
+      {/* Modular OT Section */}
+<section className="py-16 md:py-24 bg-white">
+  <div className="container mx-auto px-4">
+
+    <div className="mb-12 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+        Modular Operation Theatre Solutions
+      </h2>
+      <p className="mt-4 max-w-3xl mx-auto text-muted-foreground">
+        ISO certified manufacturing and turnkey execution of modern
+        modular operation theatres with advanced clinical design standards.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-10 items-center">
+
+      {/* LEFT TEXT */}
+      <div>
+        <h3 className="text-xl font-semibold mb-4">
+          Complete Planning & Engineering
+        </h3>
+
+        <p className="text-muted-foreground mb-4">
+          We specialise in designing and constructing modular operation
+          theatres with integrated medical gas pipeline systems,
+          HVAC solutions and advanced infection control concepts.
+        </p>
+
+        <ul className="space-y-2 text-sm text-muted-foreground">
+          <li>• State-of-the-art architectural design</li>
+          <li>• Strict safety compliance standards</li>
+          <li>• Smooth functioning of all OT components</li>
+          <li>• 3D visualisation and simulation support</li>
+          <li>• Optimal material selection guidance</li>
+        </ul>
+      </div>
+
+      {/* CENTER IMAGE */}
+      <div className="relative w-full h-[380px] md:h-[420px] rounded-xl overflow-hidden shadow-xl">
+        <Image
+          src="/images/products/modular-ot.jpg"
+          alt="Modular Operation Theatre"
+          fill
+          className="object-cover"
+        />
+      </div>
+
+      {/* RIGHT TEXT */}
+      <div>
+        <h3 className="text-xl font-semibold mb-4">
+          International Standard Construction
+        </h3>
+
+        <p className="text-muted-foreground mb-4">
+          Our turnkey OT solutions follow NABH, GMP and FDA guidelines.
+          We deliver complete infrastructure including wall panels,
+          laminar airflow systems, antibacterial flooring and integrated
+          surgical equipment installations.
+        </p>
+
+        <ul className="space-y-2 text-sm text-muted-foreground">
+          <li>• Prefabricated customised modules</li>
+          <li>• Laminar airflow & sterile environment</li>
+          <li>• Medical gas outlets integration</li>
+          <li>• Antibacterial vinyl / epoxy flooring</li>
+          <li>• Future upgrade flexibility</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div className="mt-12 text-center">
+      <Button size="lg" asChild>
+        <Link href="/contact">Request Modular OT Consultation</Link>
+      </Button>
+    </div>
+
+  </div>
+</section>
+
       {/* Our Works Video Section */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
